@@ -1,0 +1,12 @@
+[package]
+name = "universal_converter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 用於處理命令列參數傳遞
+clap = { version = "4.4", features = ["derive"] }
+# 用於處理圖片讀取、格式轉換與調整
+image = "0.24"
+# 用於處理 PDF 解析與渲染
+pdfium-render = "0.8"
